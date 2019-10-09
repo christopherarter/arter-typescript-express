@@ -6,4 +6,4 @@ app.get('/', (req: Request, res: Response) => {
     res.send("Hello World!");
 });
 const handler = serverless(app);
-export { handler }
+export { handler, app }
