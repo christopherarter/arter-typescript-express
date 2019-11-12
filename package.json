@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "concurrently --kill-others \"tsc -w\" \"sls offline start\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Chris Arter",
+  "license": "mit",
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "concurrently": "^5.0.0",
     "jest": "^24.8.0",
+    "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.7.3",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
