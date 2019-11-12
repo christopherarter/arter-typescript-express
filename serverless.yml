@@ -8,7 +8,7 @@ service: arter-typescript-serverless-starter
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: ${env:STAGE}
+  stage: ${env:AWS_STAGE}
   region: ${env:AWS_REGION}
 
 functions:
