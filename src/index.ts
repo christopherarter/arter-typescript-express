@@ -1,8 +1,8 @@
-import express from 'express';
+import express, { Express } from 'express';
 import serverless from 'serverless-http';
+const app: Express = express();
 
-const app: any = express();
-app.get('/', (req: any, res: any) => {
+app.get('/', (req: express.Request, res: express.Response) => {
     res.send("Hello World!");
 });
 const handler = serverless(app);
