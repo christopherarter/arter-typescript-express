@@ -10,13 +10,13 @@
   "author": "Chris Arter",
   "license": "mit",
   "devDependencies": {
-    "@types/jest": "^24.0.15",
+    "@types/jest": "^24.9.1",
     "concurrently": "^5.3.0",
-    "jest": "^24.8.0",
-    "serverless-dotenv-plugin": "^2.1.1",
-    "serverless-offline": "^5.7.3",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "jest": "^24.9.0",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-offline": "^5.12.1",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "@types/express": "^4.17.0",
